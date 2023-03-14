@@ -14,7 +14,7 @@ public class OneSignalInitializer : MonoBehaviour
         OneSignal.Default.NotificationOpened += _notificationOpened;
         OneSignal.Default.NotificationWillShow += _notificationReceived;
 
-        OneSignal.Default.Initialize("65611dab-3c06-4b40-b8ac-dfa054ce5494");
+        OneSignal.Default.Initialize("8449a512-6959-4220-9580-836a4afc252a");
     }
 
     private void _log(object message)
